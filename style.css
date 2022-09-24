@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot");
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg");
+}
+
 /* Header */
 * {
   box-sizing: border-box;
@@ -133,7 +139,7 @@ a.active:hover {
 }
 
 .html2-p {
-  margin-left: 16%;
+  margin-left: 12%;
 
   /* margin-right: 0; */
   text-align: center;
@@ -142,10 +148,10 @@ a.active:hover {
 
 .context h1 {
   color: rgba(237, 7, 7, 0.897);
-  font-family: 'Lato', sans-serif;
+  font-family: "COCOGOOSE";
   font-size: 2.6875rem;
   text-align: center;
-  padding-right: 11%;
+  padding-right: 19%;
   padding-top: 20px;
 }
 
