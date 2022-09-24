@@ -1,5 +1,5 @@
 //  Hamburger menu
-const hamburger = document.querySelector('.hamburger');
+const hamburger = document.querySelector('.fa-bars');
 const openMenu = document.querySelector('.mobile-option');
 const extBtn = document.querySelector('.exit');
 

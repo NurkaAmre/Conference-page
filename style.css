@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 
-.hamburger {
+.container-main .fa-bars {
   display: none;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .first-nav {
-  background-color: rgb(46, 45, 45);
+  background-color: #18191a;
   height: 30px;
   width: 100%;
   font-family: 'Lato', sans-serif;
@@ -70,18 +70,18 @@ label .logo {
 }
 
 .second-nav ul li a {
-  color: rgb(41, 36, 36);
+  color: #272a31;
   font-size: 1.25rem;
   justify-content: space-between;
   font-weight: 500;
 }
 
 a.active:hover {
-  color: orangered;
+  color: #ec5242;
 }
 
 .cc-btn {
-  color: orangered;
+  color: #ec5242;
   font-weight: 600;
   font-size: 0.75rem;
   line-height: 20px;
@@ -90,7 +90,7 @@ a.active:hover {
   padding-block: 12px;
   padding-left: 5px;
   padding-right: 5px;
-  border: 3px solid orangered;
+  border: rgba(236, 82, 66, 0.95);
 }
 
 .cc-btn:hover {
@@ -98,89 +98,82 @@ a.active:hover {
   color: #fff;
 }
 
+.conta {
+  background-color: #0f0f10;
+}
+
 /* Hero-section */
 .hero-section,
 .container-main {
-  background-color: rgb(41, 40, 40);
+  background-image: url(./assets/mobile/bkgrnd.png);
+  background-position: top left;
+  background-blend-mode: overlay;
+  background-size: 100%;
 }
 
 .container-start {
   padding-inline-start: 10%;
   padding-inline-end: 10%;
+ 
 }
-
-.context {
-  margin-inline-start: 2%;
-  margin-inline-end: 2%;
-}
-
-/* .context2 {
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-} */
 
 .context p {
   padding-top: 50px;
-  color: rgba(237, 7, 7, 0.897);
+  color: #ec5242;
   font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
-  padding-left: 3%;
 }
 
 .never2 {
-  text-align: center;
-  padding-right: 12%;
+
+  padding-left: 18%;
 }
 
 .html2-p {
-  margin-left: 16%;
-
-  /* margin-right: 0; */
-  text-align: center;
+  padding-left: 18%;
   font-size: 1rem;
 }
 
 .context h1 {
-  color: rgba(237, 7, 7, 0.897);
+  color: #ec5242;
   font-family: 'Lato', sans-serif;
-  font-size: 2.6875rem;
-  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
   padding-right: 11%;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 .bg-color {
-  background-color: rgba(88, 88, 88, 0.379);
-  color: #fff;
-  width: 60%;
-  margin-inline-start: 5%;
+  background-color: #fff;
+  color: #000;
+  width: 58%;
+  /* margin-inline-start: 5%; */
   margin-top: 40px;
   display: flex;
   justify-content: center;
-  border: 1px solid rgba(255, 68, 0, 0.799);
 }
 
 .bg-color2 {
-  margin-inline-start: 18%;
+  margin-inline-start: 8%;
   margin-bottom: 3%;
+  width: 90%;
 }
 
 .bg-color p {
   font-size: 1.2rem;
   padding-top: 20px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 20px;
   font-family: 'Lato', sans-serif;
 }
 
 .date {
   font-family: 'Lato', sans-serif;
-  color: #fff;
+  color: #000;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-inline-start: 5%;
   margin-top: 20px;
 }
 
@@ -199,7 +192,7 @@ a.active:hover {
 
 .date2 .small2 {
   margin-left: 28%;
-  color: #fff;
+  color: #000;
   margin-bottom: 100px;
 }
 
@@ -209,14 +202,12 @@ a.active:hover {
 
 /* Section about courses */
 .bg-0 {
-  background-color: rgba(15, 14, 14, 0.895);
+  background-color: #151617;
   background-image: url(./assets/mobile/fbs.jpg);
   background-position: bottom right;
   background-blend-mode: overlay;
-  background-size: 25%;
-
-  /* padding-left: 10%; */
-  padding-right: 5%;
+  background-size: 5%;
+  padding-right: 2%;
 }
 
 .bg-1 {
@@ -224,7 +215,7 @@ a.active:hover {
 }
 
 .title {
-  color: rgba(237, 7, 7, 0.897);
+  color: #ec5242;
   text-align: center;
   padding-top: 30px;
   font-family: 'Lato', sans-serif;
@@ -233,7 +224,7 @@ a.active:hover {
 }
 
 .hr-org {
-  background-color: rgba(220, 61, 4, 0.813);
+  color: #ec5242;
   width: 5%;
   padding-top: 3px;
   border: none;
@@ -281,7 +272,7 @@ a.active:hover {
 }
 
 .btn-second {
-  background-color: rgba(223, 52, 52, 0.897);
+  background-color: #ec5242;;
   color: white;
   border: none;
   width: 20%;
@@ -295,9 +286,15 @@ a.active:hover {
 }
 
 .pos-rel {
-  background-color: rgba(96, 96, 96, 0.719);
+  background-color: #404042;
   margin-right: 5px;
   text-align: center;
+}
+
+.fa-solid {
+  font-size: 40px;
+  color: rgb(24, 201, 214);
+  padding-top: 5%;
 }
 
 .pos-rel img {
@@ -310,8 +307,8 @@ a.active:hover {
 }
 
 h4 {
-  font-size: 1.25em;
-  color: rgba(237, 7, 7, 0.897);
+  font-size: 1rem;
+  color: #ec5242;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
@@ -322,14 +319,14 @@ h4 {
 .intro {
   color: #fff;
   padding-bottom: 20px;
-
-  /* padding-left: 10px;
-  padding-right: 10px; */
+  padding-left: 10px;
+  padding-right: 10px;
   font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
 }
 
 .hr-teach {
-  background-color: rgba(220, 61, 4, 0.813);
+  background-color: #ec5242;
   width: 5%;
   padding-top: 3px;
   border: none;
@@ -345,7 +342,7 @@ h4 {
 }
 
 .teach {
-  color: rgba(237, 7, 7, 0.897);
+  color: #ec5242;
   text-align: center;
   padding-top: 50px;
   font-size: 2rem;
@@ -462,7 +459,7 @@ h4 {
 }
 
 .t-p {
-  color: rgba(237, 7, 7, 0.897);
+  color: #ec5242;
   font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
@@ -476,7 +473,7 @@ h4 {
 }
 
 .hr-g {
-  background-color: rgb(60, 59, 59);
+  background-color: #272a31;
   width: 10%;
   padding-top: 2px;
   margin-top: 5px;
@@ -496,7 +493,7 @@ h4 {
   justify-content: space-around;
   font-family: 'Lato', sans-serif;
   color: rgba(201, 51, 51, 0.598);
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding-top: 20px;
   overflow: auto;
   padding-bottom: 50px;
@@ -505,13 +502,13 @@ h4 {
 }
 
 .footer {
-  background-color: #000;
+  background-color: #d3d3d3;
 }
 
 .footer-text {
   display: inline-block;
   float: right;
-  color: #fff;
+  color: #000;
   font-size: 1rem;
   padding-top: 20px;
   padding-right: 50px;
@@ -529,15 +526,10 @@ h4 {
     display: none;
   }
 
-  .container-start {
-    padding: 0;
-  }
-
-  .hamburger {
+  .container-main .fa-bars {
+    color: #000;
     display: block;
-    width: 30px;
-    height: 35px;
-    margin-left: 20px;
+    margin-left: 15px;
     padding-top: 15px;
   }
 
@@ -651,11 +643,12 @@ h4 {
 
   .comment {
     top: 30%;
-    right: 10%;
+    right: 2%;
   }
 
   .comments {
     top: 80%;
+    left: 10%;
   }
 }
 
