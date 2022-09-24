@@ -114,7 +114,6 @@ a.active:hover {
 .container-start {
   padding-inline-start: 10%;
   padding-inline-end: 10%;
- 
 }
 
 .context p {
@@ -125,7 +124,6 @@ a.active:hover {
 }
 
 .never2 {
-
   padding-left: 18%;
 }
 
@@ -147,6 +145,7 @@ a.active:hover {
   background-color: #fff;
   color: #000;
   width: 58%;
+
   /* margin-inline-start: 5%; */
   margin-top: 40px;
   display: flex;
@@ -272,7 +271,7 @@ a.active:hover {
 }
 
 .btn-second {
-  background-color: #ec5242;;
+  background-color: #ec5242;
   color: white;
   border: none;
   width: 20%;
