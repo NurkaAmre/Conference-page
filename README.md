@@ -13,11 +13,11 @@ Teachers list part created by dynamically.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://nurkaamre.github.io/Conference-page/)
 
 ## Loom Video 
 
-Video explanation (https://www.loom.com/share/c90418e57b4b4d5d8951f9da4f855ff3)
+[Video explanation](https://www.loom.com/share/c90418e57b4b4d5d8951f9da4f855ff3)
 
 
 ## Getting Started
