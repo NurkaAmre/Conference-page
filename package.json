@@ -1,0 +1,31 @@
+{
+  "name": "conference-page",
+  "version": "1.0.0",
+  "description": "> Description the project.\r This project is about online quran courses for kids and adults. Created about and home page +mobile version too,\r Teachers list part created by dynamically.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NurkaAmre/Conference-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NurkaAmre/Conference-page/issues"
+  },
+  "homepage": "https://github.com/NurkaAmre/Conference-page#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^7.1.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
