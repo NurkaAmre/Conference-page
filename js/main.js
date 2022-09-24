@@ -1,3 +1,4 @@
+//  Hamburger menu
 const hamburger = document.querySelector('.hamburger');
 const openMenu = document.querySelector('.mobile-option');
 const extBtn = document.querySelector('.exit');
@@ -21,7 +22,7 @@ extBtn.addEventListener('click', close);
 
 openMenu.addEventListener('click', close);
 
-//= ======
+//= ====== Teachers List
 const projects = [{
   id: '1',
   name: 'Mr.Ahmad',
