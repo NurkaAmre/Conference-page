@@ -1,7 +1,7 @@
 # Quran online course 
 
 > Description the project.
-This project is about online quran courses for kids and adults. Created about and home page +mobile version too,
+This project is about online quran course website for kids and adults. Created about and home page +mobile version too,
 Teachers list part created by dynamically. 
 
 
@@ -18,14 +18,14 @@ Teachers list part created by dynamically.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
+Clone this repo using this URL (link) or download it as a ZIP format from the green button above under the text Code.
 
-## Authors
+Usage: inside the project folder looks for the index.html file and open it using your preferred web browser.
+
+
+## Author
 
 👤 *Nurgul**
 
