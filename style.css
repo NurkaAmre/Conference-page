@@ -70,18 +70,18 @@ label .logo {
 }
 
 .second-nav ul li a {
-  color: #272a31;
+  color: rgba(184, 44, 128, 0.553);
   font-size: 1.25rem;
   justify-content: space-between;
   font-weight: 500;
 }
 
 a.active:hover {
-  color: #ec5242;
+  color: #f110da;
 }
 
 .cc-btn {
-  color: #ec5242;
+  color: #b926b9;
   font-weight: 600;
   font-size: 0.75rem;
   line-height: 20px;
@@ -90,25 +90,26 @@ a.active:hover {
   padding-block: 12px;
   padding-left: 5px;
   padding-right: 5px;
-  border: rgba(236, 82, 66, 0.95);
+  border: rgba(246, 248, 244, 0.95);
 }
 
 .cc-btn:hover {
-  background-color: rgba(237, 7, 7, 0.897);
+  background-color: rgba(187, 57, 165, 0.897);
   color: #fff;
 }
 
 .conta {
-  background-color: #0f0f10;
+  background-color: #1414d6;
 }
 
 /* Hero-section */
 .hero-section,
 .container-main {
-  background-image: url(./assets/mobile/bkgrnd.png);
-  background-position: top left;
+  background-image: url(./assets/mobile/unsplash.jpg);
+  /* background-position: top left; */
+  background-color: rgb(250, 240, 240);
   background-blend-mode: overlay;
-  background-size: 100%;
+  background-size: 35%;
 }
 
 .container-start {
@@ -118,7 +119,7 @@ a.active:hover {
 
 .context p {
   padding-top: 50px;
-  color: #ec5242;
+  color: #1e1413;
   font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
 }
@@ -133,7 +134,7 @@ a.active:hover {
 }
 
 .context h1 {
-  color: #ec5242;
+  color: rgb(61, 54, 54);
   font-family: 'Lato', sans-serif;
   font-size: 4rem;
   font-weight: 700;
@@ -142,10 +143,10 @@ a.active:hover {
 }
 
 .bg-color {
-  background-color: #fff;
-  color: #000;
+  background-color: rgba(109, 166, 104, 0.553);
+  color: rgb(236, 243, 246);
   width: 58%;
-
+  border: 1px solid rgb(228, 232, 236);
   /* margin-inline-start: 5%; */
   margin-top: 40px;
   display: flex;
@@ -169,7 +170,7 @@ a.active:hover {
 
 .date {
   font-family: 'Lato', sans-serif;
-  color: #000;
+  color: rgb(40, 36, 36);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -201,11 +202,11 @@ a.active:hover {
 
 /* Section about courses */
 .bg-0 {
-  background-color: #151617;
-  background-image: url(./assets/mobile/fbs.jpg);
+  background-color: rgba(41, 190, 28, 0.388);
+  /* background-image: url(./assets/mobile/unsplash2.jpg); */
   background-position: bottom right;
   background-blend-mode: overlay;
-  background-size: 5%;
+  background-size: 3%;
   padding-right: 2%;
 }
 
@@ -214,16 +215,17 @@ a.active:hover {
 }
 
 .title {
-  color: #ec5242;
+  color: #c21b08f0;
   text-align: center;
   padding-top: 30px;
   font-family: 'Lato', sans-serif;
   margin-bottom: 5px;
   font-weight: 800;
+  font-size: 2rem;
 }
 
 .hr-org {
-  color: #ec5242;
+  color: #19aa0e;
   width: 5%;
   padding-top: 3px;
   border: none;
@@ -259,7 +261,7 @@ a.active:hover {
 
 .cards {
   justify-content: space-between;
-  padding-left: 7%;
+  /* padding-left: 7%; */
 }
 
 .bg-color1 .cards {
@@ -271,7 +273,7 @@ a.active:hover {
 }
 
 .btn-second {
-  background-color: #ec5242;
+  background-color: rgb(15, 139, 87);
   color: white;
   border: none;
   width: 20%;
@@ -285,14 +287,15 @@ a.active:hover {
 }
 
 .pos-rel {
-  background-color: #404042;
-  margin-right: 5px;
+  background-color: #27cb4d75;
+  margin-right: 10px;
+  padding-right: 10px;
   text-align: center;
 }
 
 .fa-solid {
   font-size: 40px;
-  color: rgb(24, 201, 214);
+  color: rgb(15, 240, 187);
   padding-top: 5%;
 }
 
@@ -302,12 +305,12 @@ a.active:hover {
 }
 
 .pos-rel:hover {
-  border: 2px solid white;
+  border: 2px solid #fff;
 }
 
 h4 {
   font-size: 1rem;
-  color: #ec5242;
+  color: #0c5c0be5;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
@@ -479,7 +482,7 @@ h4 {
 }
 
 .partners {
-  color: rgb(218, 214, 214);
+  color: rgb(18, 11, 11);
   font-size: 2.5rem;
   text-align: center;
   padding-top: 30px;
@@ -501,13 +504,13 @@ h4 {
 }
 
 .footer {
-  background-color: #d3d3d3;
+  background-color: #141414;
 }
 
 .footer-text {
   display: inline-block;
   float: right;
-  color: #000;
+  color: rgba(250, 245, 245, 0.836);
   font-size: 1rem;
   padding-top: 20px;
   padding-right: 50px;
@@ -516,6 +519,8 @@ h4 {
 .logo2 img {
   margin-left: 100px;
   border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 
 /* Media-Query */
