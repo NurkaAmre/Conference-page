@@ -49,6 +49,7 @@ label .logo {
   height: 80px;
   position: absolute;
   left: 250px;
+  cursor: pointer;
 }
 
 .second-nav {
@@ -99,6 +100,7 @@ a.active:hover {
   padding: 10px 12px;
   letter-spacing: 1px;
   transition: 1.5s all;
+  cursor: pointer;
 }
 
 .cc-btn:hover {
@@ -476,18 +478,25 @@ h4 {
 .teachers img {
   background-image: url(./assets/mobile/bg-10.jpg);
   background-position: left top;
+  margin: 10px 0;
+  border-radius: 7px;
   background-size: 70%;
+  cursor: pointer;
+  border: 4px solid #0f4ead;
+  border-bottom: none;
+  border-right: none;
+  -webkit-box-shadow: 10px 8px 19px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 8px 19px -13px rgba(0,0,0,0.75);
+box-shadow: 10px 8px 19px -13px rgba(0,0,0,0.75);
 }
 
 .t-h4 {
   color: #000;
-  font-family: 'Lato', sans-serif;
   font-size: 1.7rem;
 }
 
 .t-p {
   color: #ec5242;
-  font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
 }
