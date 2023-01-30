@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;1,500&display=swap');
+
 /* Header */
 * {
   box-sizing: border-box;
@@ -7,10 +9,18 @@
   padding: 0;
   list-style-type: none;
   text-decoration: none;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 
 body {
   font-family: 'Rajdhani', sans-serif;
+  width: 100%;
 }
 
 .container-main .fa-bars {
@@ -59,6 +69,7 @@ label .logo {
   height: 80px;
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 .second-nav ul {
@@ -117,19 +128,19 @@ a.active:hover {
 .hero-section,
 .container-main {
   background-image: url(./assets/mobile/unsplash.jpg);
+
   /* background-position: top left; */
   background-color: rgb(250, 240, 240);
   background-blend-mode: overlay;
   background-size: 35%;
   width: 100%;
   height: auto;
-  
 }
 
- .container-start {
+.container-start {
   padding-inline-start: 10%;
   padding-inline-end: 10%;
-} 
+}
 
 .context p {
   padding-top: 50px;
@@ -155,6 +166,14 @@ a.active:hover {
   font-weight: 700;
   padding-right: 11%;
   padding-top: 5px;
+  text-shadow: 2px 2px 4px #2b2626;
+}
+
+.context h1 span {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #fff;
+  font-style: italic;
+  text-shadow: 2px 2px 4px #2b2626;
 }
 
 .bg-color {
@@ -162,14 +181,15 @@ a.active:hover {
   color: rgb(236, 243, 246);
   width: 58%;
   border: 1px solid rgb(228, 232, 236);
+
   /* margin-inline-start: 5%; */
   margin-top: 40px;
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  box-shadow: 10px -2px 32px -21px rgba(245,40,40,0.55);
--webkit-box-shadow: 10px -2px 32px -21px rgba(245,40,40,0.55);
--moz-box-shadow: 10px -2px 32px -21px rgba(245,40,40,0.55);
+  box-shadow: 10px -2px 32px -21px rgba(245, 40, 40, 0.55);
+  -webkit-box-shadow: 10px -2px 32px -21px rgba(245, 40, 40, 0.55);
+  -moz-box-shadow: 10px -2px 32px -21px rgba(245, 40, 40, 0.55);
 }
 
 .bg-color2 {
@@ -222,6 +242,7 @@ a.active:hover {
 /* Section about courses */
 .bg-0 {
   background-color: rgba(102, 196, 233, 0.596);
+
   /* background-image: url(./assets/mobile/unsplash2.jpg); */
   background-position: bottom right;
   background-blend-mode: overlay;
@@ -235,7 +256,6 @@ a.active:hover {
 .bg-1 {
   background-color: #fff;
 }
-
 
 .title {
   color: #fffffff0;
@@ -282,6 +302,7 @@ a.active:hover {
 
 .cards {
   justify-content: space-between;
+
   /* padding-left: 7%; */
 }
 
@@ -315,7 +336,6 @@ a.active:hover {
   border-radius: 10px;
   text-align: center;
   border: 2px solid #fff;
-  
 }
 
 .fa-solid {
@@ -330,9 +350,9 @@ a.active:hover {
 }
 
 .pos-rel:hover {
-  box-shadow: -16px -1px 44px -29px rgba(0,0,0,0.59);
--webkit-box-shadow: -16px -1px 44px -29px rgba(0,0,0,0.59);
--moz-box-shadow: -16px -1px 44px -29px rgba(0,0,0,0.59);
+  box-shadow: -16px -1px 44px -29px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: -16px -1px 44px -29px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: -16px -1px 44px -29px rgba(0, 0, 0, 0.59);
 }
 
 h4 {
@@ -485,9 +505,9 @@ h4 {
   border: 4px solid #0f4ead;
   border-bottom: none;
   border-right: none;
-  -webkit-box-shadow: 10px 8px 19px -13px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 8px 19px -13px rgba(0,0,0,0.75);
-box-shadow: 10px 8px 19px -13px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 8px 19px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 8px 19px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 8px 19px -13px rgba(0, 0, 0, 0.75);
 }
 
 .t-h4 {
@@ -735,4 +755,3 @@ box-shadow: 10px 8px 19px -13px rgba(0,0,0,0.75);
 .nav-link:hover {
   color: orangered;
 }
-
